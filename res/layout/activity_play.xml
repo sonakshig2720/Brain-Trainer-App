@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff33b1"
+    tools:context=".PlayActivity" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="161dp"
+        android:background="#33fffd"
+        android:text="START"
+        android:textSize="30sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:text="START GAME"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+</RelativeLayout>
